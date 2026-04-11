@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MCU_ST_STM32G0_LQFP48") (type "KiCad") (uri "${KIPRJMOD}/LIB/MCU_ST_STM32G0_LQFP48.kicad_sym") (options "") (descr ""))
+)
