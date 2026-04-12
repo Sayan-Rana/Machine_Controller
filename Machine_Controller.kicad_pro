@@ -499,42 +499,49 @@
       {
         "name": "+3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": ""
       },
       {
-        "name": "3V3-GND",
+        "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgb(200, 200, 200)",
+        "schematic_color": "rgb(255, 95, 0)",
         "tuning_profile": ""
       },
       {
         "name": "DEBUG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(99, 120, 255)",
         "tuning_profile": ""
       },
       {
         "name": "ENCODER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(151, 255, 171)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(200, 200, 200)",
         "tuning_profile": ""
       },
       {
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(36, 140, 255)",
         "tuning_profile": ""
       },
       {
         "name": "SERIAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(7, 255, 206)",
         "tuning_profile": ""
       }
@@ -566,8 +573,12 @@
         "pattern": "+3V3"
       },
       {
-        "netclass": "3V3-GND",
+        "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "+5V"
       }
     ]
   },
@@ -699,7 +710,7 @@
         "uuid": "2fc0bf85-6366-477f-b6d7-3115b2a67636"
       }
     ],
-    "used_designators": "J1-4,R3-10,#FLG1-3,SW2,D2,#PWR13-23,C10-15",
+    "used_designators": "U6,J5,R15,C21,#PWR35-38,Q1",
     "variants": []
   },
   "sheets": [
