@@ -499,50 +499,106 @@
       {
         "name": "+3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 10,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": ""
       },
       {
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 8,
         "schematic_color": "rgb(255, 95, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "10K_PULLUP",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 8, 183)",
         "tuning_profile": ""
       },
       {
         "name": "DEBUG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 12,
         "schematic_color": "rgb(99, 120, 255)",
         "tuning_profile": ""
       },
       {
         "name": "ENCODER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 11,
         "schematic_color": "rgb(151, 255, 171)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "EXT_IN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(255, 246, 12)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "EXT_OUT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(184, 255, 7)",
         "tuning_profile": ""
       },
       {
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 9,
         "schematic_color": "rgb(200, 200, 200)",
         "tuning_profile": ""
       },
       {
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 13,
         "schematic_color": "rgb(36, 140, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "LED_IN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgb(255, 171, 7)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "LED_OUT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(220, 255, 8)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PC_OUT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 149, 176)",
         "tuning_profile": ""
       },
       {
         "name": "SERIAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 14,
         "schematic_color": "rgb(7, 255, 206)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "uC_IN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(153, 68, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "uC_OUT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(84, 17, 255)",
         "tuning_profile": ""
       }
     ],
@@ -554,7 +610,7 @@
     "netclass_patterns": [
       {
         "netclass": "SERIAL",
-        "pattern": "/UART1_*"
+        "pattern": "/*UART1_*"
       },
       {
         "netclass": "I2C",
@@ -562,11 +618,11 @@
       },
       {
         "netclass": "DEBUG",
-        "pattern": "/DEBUG_*"
+        "pattern": "/*DEBUG_SW*"
       },
       {
         "netclass": "ENCODER",
-        "pattern": "/ENC_*"
+        "pattern": "/*ENC_*"
       },
       {
         "netclass": "+3V3",
@@ -574,11 +630,47 @@
       },
       {
         "netclass": "GND",
-        "pattern": "GND"
+        "pattern": "/*GND"
       },
       {
         "netclass": "+5V",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "/*+3V3"
+      },
+      {
+        "netclass": "LED_IN",
+        "pattern": "/*LED_IN*"
+      },
+      {
+        "netclass": "EXT_IN",
+        "pattern": "/*INPUT?"
+      },
+      {
+        "netclass": "uC_IN",
+        "pattern": "/*uC_IN*"
+      },
+      {
+        "netclass": "10K_PULLUP",
+        "pattern": "/*P-UP*"
+      },
+      {
+        "netclass": "uC_OUT",
+        "pattern": "/*uC_OUT*"
+      },
+      {
+        "netclass": "LED_OUT",
+        "pattern": "/*LED_OUT*"
+      },
+      {
+        "netclass": "EXT_OUT",
+        "pattern": "/*OUTPUT?"
+      },
+      {
+        "netclass": "PC_OUT",
+        "pattern": "/*PC_OUT*"
       }
     ]
   },
@@ -706,17 +798,41 @@
     "top_level_sheets": [
       {
         "filename": "Machine_Controller.kicad_sch",
-        "name": "Root",
+        "name": "OVERVIEW",
         "uuid": "2fc0bf85-6366-477f-b6d7-3115b2a67636"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R33,R71-79,U27-30,C37,#PWR55-58,RN3-5",
     "variants": []
   },
   "sheets": [
     [
       "2fc0bf85-6366-477f-b6d7-3115b2a67636",
-      "Root"
+      "OVERVIEW"
+    ],
+    [
+      "e879f087-3312-4321-b149-7957f28591fe",
+      "POWER"
+    ],
+    [
+      "0b743bfa-451b-4c9f-8483-4072aabad6ec",
+      "USER_INTERFACE"
+    ],
+    [
+      "a9b5192e-85a4-4090-a942-05790e118c5c",
+      "DEBUG_and_COM"
+    ],
+    [
+      "d749e400-a9cd-4c52-bc9d-a46e65c5b969",
+      "MCU"
+    ],
+    [
+      "72f3ee63-8e2d-4be6-94d7-a77fee72a8f7",
+      "INPUTS"
+    ],
+    [
+      "1975c684-401d-4e62-8f83-26551a7d52ba",
+      "OUTPUTS"
     ]
   ],
   "text_variables": {},
