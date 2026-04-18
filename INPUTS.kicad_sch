@@ -2037,7 +2037,7 @@
 	)
 	(text "INPUT LED"
 		(exclude_from_sim no)
-		(at 33.274 132.842 0)
+		(at 33.274 136.144 0)
 		(effects
 			(font
 				(face "Arial Black")
@@ -2456,7 +2456,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 118.11) (xy 31.75 128.27)
+			(xy 31.75 118.11) (xy 31.75 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2486,7 +2486,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 118.11) (xy 41.91 128.27)
+			(xy 41.91 118.11) (xy 41.91 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2736,7 +2736,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 118.11) (xy 46.99 128.27)
+			(xy 46.99 118.11) (xy 46.99 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3016,7 +3016,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 118.11) (xy 21.59 128.27)
+			(xy 21.59 118.11) (xy 21.59 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3056,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 118.11) (xy 29.21 128.27)
+			(xy 29.21 118.11) (xy 29.21 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3096,7 +3096,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 118.11) (xy 44.45 128.27)
+			(xy 44.45 118.11) (xy 44.45 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3306,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 118.11) (xy 24.13 128.27)
+			(xy 24.13 118.11) (xy 24.13 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3596,7 +3596,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 118.11) (xy 26.67 128.27)
+			(xy 26.67 118.11) (xy 26.67 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4106,7 +4106,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 118.11) (xy 39.37 128.27)
+			(xy 39.37 118.11) (xy 39.37 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4366,7 +4366,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 118.11) (xy 34.29 128.27)
+			(xy 34.29 118.11) (xy 34.29 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4556,7 +4556,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 118.11) (xy 36.83 128.27)
+			(xy 36.83 118.11) (xy 36.83 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4725,7 +4725,7 @@
 		(uuid "fe53fb4d-1ed4-4b70-80ff-0193d950e45f")
 	)
 	(label "LED_IN9"
-		(at 44.45 128.27 90)
+		(at 44.45 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4765,7 +4765,7 @@
 		(uuid "16f18213-b74c-4155-912a-33d08f655e07")
 	)
 	(label "LED_IN4"
-		(at 31.75 128.27 90)
+		(at 31.75 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4775,7 +4775,7 @@
 		(uuid "1c22932b-4e48-44a0-8f09-ba63e1cce910")
 	)
 	(label "LED_IN8"
-		(at 41.91 128.27 90)
+		(at 41.91 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4785,7 +4785,7 @@
 		(uuid "1d96a376-e308-423d-ad74-9d7cb3c9c642")
 	)
 	(label "LED_IN0"
-		(at 21.59 128.27 90)
+		(at 21.59 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4795,7 +4795,7 @@
 		(uuid "1dfc3d12-0cdb-430e-bab2-1d238863b11f")
 	)
 	(label "LED_IN2"
-		(at 26.67 128.27 90)
+		(at 26.67 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4804,7 +4804,7 @@
 		)
 		(uuid "30a94c33-7058-48ed-8137-64c5e1679bb6")
 	)
-	(label "COMMON"
+	(label "COMMON_IN"
 		(at 46.99 105.41 180)
 		(effects
 			(font
@@ -4824,8 +4824,8 @@
 		)
 		(uuid "49ffabf1-15f8-41c5-871c-56c2d3feb5d2")
 	)
-	(label "COMMON"
-		(at 46.99 128.27 90)
+	(label "COMMON_IN"
+		(at 46.99 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4845,7 +4845,7 @@
 		(uuid "5ef7b51e-ec68-42b6-9b53-3725eb100657")
 	)
 	(label "LED_IN5"
-		(at 34.29 128.27 90)
+		(at 34.29 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4855,7 +4855,7 @@
 		(uuid "70378f86-b597-45c7-acac-b23247aae98f")
 	)
 	(label "LED_IN7"
-		(at 39.37 128.27 90)
+		(at 39.37 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4875,7 +4875,7 @@
 		(uuid "8d6853d9-6108-4c1c-ab2b-fb310812678f")
 	)
 	(label "LED_IN6"
-		(at 36.83 128.27 90)
+		(at 36.83 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4885,7 +4885,7 @@
 		(uuid "9162b1a2-bc1c-41f9-95f4-388da4c42268")
 	)
 	(label "LED_IN1"
-		(at 24.13 128.27 90)
+		(at 24.13 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4895,7 +4895,7 @@
 		(uuid "af452c3b-09dd-4403-8360-36262eb84e29")
 	)
 	(label "LED_IN3"
-		(at 29.21 128.27 90)
+		(at 29.21 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4999,7 +4999,7 @@
 		)
 		(uuid "5e242608-70d3-43f8-b596-104698d4cb1a")
 	)
-	(hierarchical_label "COMMON"
+	(hierarchical_label "COMMON_IN"
 		(shape input)
 		(at 85.09 125.73 270)
 		(effects

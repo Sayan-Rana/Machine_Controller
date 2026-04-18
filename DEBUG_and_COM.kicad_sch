@@ -2784,7 +2784,7 @@
 		)
 		(uuid "d9b40831-3a51-4c71-902a-cf95fdb9c76d")
 	)
-	(text "UART TO RS485 BRIDGE"
+	(text "UART TO RS485 BRIDGE\n[INCOMPLETE]"
 		(exclude_from_sim no)
 		(at 96.266 107.442 0)
 		(effects

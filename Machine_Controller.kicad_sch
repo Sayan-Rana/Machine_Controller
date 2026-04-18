@@ -3481,26 +3481,6 @@
 				(justify left top)
 			)
 		)
-		(pin "+24V" input
-			(at 231.14 64.77 90)
-			(uuid "eb505272-c4af-4790-a197-04729c49ca4b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "COMMON" input
-			(at 231.14 100.33 270)
-			(uuid "3fe51173-1564-497c-b27e-a401c4eafce7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "OUTPUT0" output
 			(at 243.84 71.12 0)
 			(uuid "715bd74b-b3a2-496b-bc96-5df19180a2fb")
@@ -3701,6 +3681,26 @@
 				(justify left)
 			)
 		)
+		(pin "+24V" input
+			(at 231.14 64.77 90)
+			(uuid "0b717abb-ed6f-4f3b-879b-46077f4aecec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COMMON_OUT" input
+			(at 231.14 100.33 270)
+			(uuid "07eda1b9-313c-4605-ab7c-8b1c783be792")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Machine_Controller"
 				(path "/2fc0bf85-6366-477f-b6d7-3115b2a67636"
@@ -3749,16 +3749,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "COMMON" input
-			(at 201.93 100.33 270)
-			(uuid "fbf8c41a-dfaa-4532-ad46-768131ad7caf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "INPUT0" input
@@ -3959,6 +3949,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "COMMON_IN" input
+			(at 201.93 100.33 270)
+			(uuid "8fc2927b-f768-45b9-81e8-e13d1400a3bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

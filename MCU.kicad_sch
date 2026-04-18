@@ -2621,6 +2621,21 @@
 		)
 		(uuid "8da25e31-a42f-4b80-babc-4593912bb857")
 	)
+	(text "STM32G050C8T6 MICROCONTROLLER\nLQFP-48\n[INCOMPLETE]"
+		(exclude_from_sim no)
+		(at 132.842 169.164 0)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 193 255 1)
+			)
+		)
+		(uuid "a89d967f-52a9-4d77-9d66-77cb2c1dc7c9")
+	)
 	(junction
 		(at 151.13 40.64)
 		(diameter 0)

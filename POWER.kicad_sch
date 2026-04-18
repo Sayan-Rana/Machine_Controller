@@ -1928,7 +1928,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "POWER CIRCUIT (5.0V)"
+	(text "POWER CIRCUIT (5.0V)\n[INCOMPLETE]"
 		(exclude_from_sim no)
 		(at 84.328 88.646 0)
 		(effects
