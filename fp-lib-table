@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "74HC125") (type "KiCad") (uri "${KIPRJMOD}/LIB/74HC125.pretty") (options "") (descr ""))
+)

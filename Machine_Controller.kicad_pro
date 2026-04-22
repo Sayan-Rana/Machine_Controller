@@ -499,105 +499,112 @@
       {
         "name": "+3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": ""
       },
       {
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(255, 95, 0)",
         "tuning_profile": ""
       },
       {
         "name": "10K_PULLUP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(255, 8, 183)",
         "tuning_profile": ""
       },
       {
         "name": "DEBUG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgb(99, 120, 255)",
         "tuning_profile": ""
       },
       {
         "name": "ENCODER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgb(151, 255, 171)",
         "tuning_profile": ""
       },
       {
         "name": "EXT_IN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(255, 246, 12)",
         "tuning_profile": ""
       },
       {
         "name": "EXT_OUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(184, 255, 7)",
         "tuning_profile": ""
       },
       {
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(200, 200, 200)",
         "tuning_profile": ""
       },
       {
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 13,
+        "priority": 14,
         "schematic_color": "rgb(36, 140, 255)",
         "tuning_profile": ""
       },
       {
         "name": "LED_IN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(255, 171, 7)",
         "tuning_profile": ""
       },
       {
         "name": "LED_OUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(220, 255, 8)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PC_IN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(208, 157, 255)",
         "tuning_profile": ""
       },
       {
         "name": "PC_OUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 149, 176)",
         "tuning_profile": ""
       },
       {
         "name": "SERIAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 14,
+        "priority": 15,
         "schematic_color": "rgb(7, 255, 206)",
         "tuning_profile": ""
       },
       {
         "name": "uC_IN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(153, 68, 255)",
         "tuning_profile": ""
       },
       {
         "name": "uC_OUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(84, 17, 255)",
         "tuning_profile": ""
       }
@@ -671,6 +678,10 @@
       {
         "netclass": "PC_OUT",
         "pattern": "/*PC_OUT*"
+      },
+      {
+        "netclass": "PC_IN",
+        "pattern": "/*PC_IN*"
       }
     ]
   },
