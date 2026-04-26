@@ -3014,7 +3014,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "0R"
 			(at 113.03 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3266,7 +3266,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "3.3V POWER"
 			(at 213.614 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,6 +3310,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Information" "3.3V Power indicator (RED)"
 			(at 212.09 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4506,8 +4517,8 @@
 				)
 			)
 		)
-		(property "Value" "RED"
-			(at 124.714 74.93 90)
+		(property "Value" "5V POWER"
+			(at 128.27 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4551,6 +4562,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 120.65 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Information" "5V Power indicator (Red)"
+			(at 120.65 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
